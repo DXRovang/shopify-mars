@@ -2,11 +2,13 @@ const Image = ({page}) => {
   return ( 
     <div>
       in Image
-      {page.photos ? page.photos.map(photo=>(
-        <div key={photo.id}>
-           <img src={photo.img_src}/>
+      {page.photos.map(photo=>(
+        <div className="image">
+           <img  key={photo.id} src={photo.img_src} alt="Surface of Mars"/>
+           <div>Curiosity Rover - {photo.camera.full_name}</div>
+           <div>{photo.earth_date}</div>
         </div>
-      )):null}
+      ))}
     </div>
    );
 }

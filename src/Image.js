@@ -12,7 +12,7 @@ const Image = ({page}) => {
       <Row>
       {page.photos ? page.photos.map(photo=>(
         <Col>
-        <Card key={photo.id} className="image">
+        <Card key={photo.id} className="image left">
         <CardImg top width="100%"src={photo.img_src} alt="Surface of Mars"/>
         <CardBody>
            <CardTitle>Curiosity Rover - {photo.camera.full_name}</CardTitle> 

@@ -1,8 +1,7 @@
 const Navbar = () => {
   return ( 
-    <div>
-      <h1>Shopify-Mars</h1>
-      <h3>Bringing the Galaxy to You!</h3>
+    <div >
+      <h1 className="nav">Shopify-Mars - Bringing the Galaxy to You!</h1> 
     </div>
    );
 }

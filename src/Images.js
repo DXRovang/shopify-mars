@@ -15,7 +15,6 @@ useEffect(()=>{
 
   return ( 
     <div>
-      in Images
       {images && <Image page={images}/>}
     </div>
    );

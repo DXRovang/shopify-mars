@@ -1,7 +1,7 @@
 const Navbar = () => {
   return ( 
     <div>
-      in Navbar
+      <h1>Shopify-Mars: Extending our Reach to the Galaxy!</h1>
     </div>
    );
 }

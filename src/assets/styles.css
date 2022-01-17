@@ -1,18 +1,23 @@
 .app{
-  background-color: rgb(235, 228, 225);
+  background-color: rgb(235, 226, 222);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .nav{
+  background-color: rgb(223, 177, 222);
+  color: rgb(68, 10, 21);
+  text-shadow: 2px 2px gold;
+  
+}
+h1{
   text-align: center;
-  background-color: burlywood
 }
-.left{
-  float: left;
-}
-
 .red{
   background-color: red;
 }
 .grey{
   background-color: grey;
+}
+.image{
+  width: 50vw;
+  margin: auto;
 }

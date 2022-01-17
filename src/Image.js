@@ -9,10 +9,11 @@ const Image = ({page}) => {
 
   return ( 
     <Container>
-      <Row>
+     
       {page.photos ? page.photos.map(photo=>(
+         <Row>
         <Col>
-        <Card key={photo.id} className="image left">
+        <Card key={photo.id} className="image">
         <CardImg top width="100%"src={photo.img_src} alt="Surface of Mars"/>
         <CardBody>
            <CardTitle>Curiosity Rover - {photo.camera.full_name}</CardTitle> 
@@ -21,11 +22,11 @@ const Image = ({page}) => {
            </CardBody>
         </Card>
         </Col>
-       
+        </Row>
 
        
       )):null}
-      </Row>
+      
     </Container>
    );
 }

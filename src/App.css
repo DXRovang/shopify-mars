@@ -3,3 +3,9 @@ img{
   height: 50vh;
   margin: auto;
 }
+.red{
+  background-color: red;
+}
+.grey{
+  background-color: grey;
+}
